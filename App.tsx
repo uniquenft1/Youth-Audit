@@ -7,10 +7,10 @@ import {
   Shield, Code2, Cpu, BarChart3, Radio, FileText, Lock, Layers, ZapOff, Fingerprint,
   Terminal, Database, RefreshCcw, History, TrendingUp, AlertCircle
 } from 'lucide-react';
-import { etherscanService, NETWORKS } from './services/etherscanService';
-import { geminiService } from './services/geminiService';
-import { usageService } from './services/usageService';
-import { ContractInfo, SecurityAudit, RiskLevel, UsageStats, Network } from './types';
+import { etherscanService, NETWORKS } from './services/etherscanService.ts';
+import { geminiService } from './services/geminiService.ts';
+import { usageService } from './services/usageService.ts';
+import { ContractInfo, SecurityAudit, RiskLevel, UsageStats, Network } from './types.ts';
 import { Chat } from '@google/genai';
 
 // --- Types ---
