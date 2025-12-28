@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { 
   Search, ShieldAlert, ShieldCheck, Info, Loader2, ArrowRight, X, ExternalLink, 
   Download, Share2, AlertTriangle, CheckCircle2, MessageSquare, Send, Zap, 
@@ -1009,6 +1010,8 @@ export default function App() {
       </main>
 
       <Footer />
+
+      <SpeedInsights />
 
       <SettingsModal isOpen={showSettings} onClose={() => setShowSettings(false)} />
 
